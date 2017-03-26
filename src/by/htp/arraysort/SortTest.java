@@ -11,10 +11,10 @@ public class SortTest {
 		}
 
 		printArray(arr);
-		// ArraySorting.SelectionSort(arr);
-		// ArraySorting.InsertionSort(arr);
-		// ArraySorting.BubbleSort(arr);
-		ArraySorting.QuickSort(arr, 0, 19, rand);
+		// ArraySorting.selectionSort(arr);
+		// ArraySorting.insertionSort(arr);
+		// ArraySorting.bubbleSort(arr);
+		ArraySorting.quickSort(arr, 0, 19, rand);
 
 		System.out.println("Sorted:");
 		printArray(arr);

@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class ArraySorting {
 
-	public static void SelectionSort(int[] arr) {
+	public static void selectionSort(int[] arr) {
 
 		for (int min = 0; min < arr.length - 1; min++) {
 			int least = min;
@@ -20,7 +20,7 @@ public class ArraySorting {
 
 	}
 
-	public static void InsertionSort(int[] arr) {
+	public static void insertionSort(int[] arr) {
 		int temp;
 		int j;
 		for (int i = 1; i < arr.length; i++) {
@@ -35,7 +35,7 @@ public class ArraySorting {
 
 	}
 
-	public static void BubbleSort(int[] arr) {
+	public static void bubbleSort(int[] arr) {
 		int temp;
 
 		for (int i = 0; i < arr.length; i++) {
@@ -49,7 +49,7 @@ public class ArraySorting {
 		}
 	}
 
-	public static void QuickSort(int[] arr, int left, int right, Random rand) {
+	public static void quickSort(int[] arr, int left, int right, Random rand) {
 		int i = left;
 		int j = right;
 		int x = arr[left + rand.nextInt(right - left + 1)];
