@@ -69,10 +69,10 @@ public class ArraySorting {
 			}
 		}
 		if (left < j) {
-			QuickSort(arr, left, j, rand);
+			quickSort(arr, left, j, rand);
 		}
 		if (i < right) {
-			QuickSort(arr, i, right, rand);
+			quickSort(arr, i, right, rand);
 		}
 	}
 
