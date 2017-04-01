@@ -35,7 +35,7 @@ hs_err_pid*
 .settings
 bin
 .classpath
-
+.project
 
 
 # Directories potentially created on remote AFP share
